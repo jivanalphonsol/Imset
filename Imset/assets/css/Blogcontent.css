@@ -1,0 +1,110 @@
+﻿body {
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #6A6972;
+    overflow-x: hidden;
+}
+
+.Hedtag {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.subHedtag {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.subHedtagh3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.subHedtagh4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 8px;
+}
+
+
+.para {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.mySlides img {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySlides1 img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardtxt {
+    background: #F0F0F0;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.dropdown-menu {
+    padding: 4px 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.imgstyle {
+    height: 100px;
+    width: 500px;
+}
+
+.cardtxt ul li {
+    color: black;
+    font-size: 16px;
+}
+
+.inline-list1 {
+    list-style-type: disc;
+    padding: 20px;
+}
+
+    .inline-list1 li a {
+        display: inline;
+        margin-right: 10px;
+        color: black;
+    }
+
+        .inline-list1 li a:hover {
+            color: mediumaquamarine;
+        }
+
+.Underlinedecorate {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-size: 22px;
+    color: black;
+    padding-top: 10px;
+}
+
+
