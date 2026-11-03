@@ -1,0 +1,39 @@
+/* One navbar look for every page (loaded last so it wins over per-page styles) */
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 100px !important;
+        height: 80px !important;
+    }
+
+    #nav.navbar-nav .nav-item > a,
+    #nav.navbar-nav .nav-item > a.nav-link,
+    #nav.navbar-nav .nav-item > a.nav-link.dropdown-toggle {
+        font-family: "Poppins", sans-serif !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        padding: 10px 0 !important;
+        color: #2E2E2E !important;
+    }
+
+        #nav.navbar-nav .nav-item > a:hover,
+        #nav.navbar-nav .nav-item.show > a.nav-link.dropdown-toggle {
+            color: #361CC1 !important;
+        }
+
+    #nav.navbar-nav .nav-item.active > a,
+    #nav.navbar-nav .nav-item.active > a.nav-link {
+        color: #119bd2 !important;
+        font-weight: 600 !important;
+    }
+
+    #nav.navbar-nav .nav-item {
+        margin-left: 30px;
+    }
+
+    #nav.navbar-nav .dropdown-menu .dropdown-item {
+        font-size: 14px !important;
+        padding: 8px 20px !important;
+        color: #2E2E2E !important;
+    }
+}

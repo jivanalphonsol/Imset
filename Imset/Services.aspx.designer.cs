@@ -159,30 +159,12 @@ namespace imset
         protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// lnkFinalCatalogueMN control.
+        /// rptCatalogue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkFinalCatalogueMN;
-
-        /// <summary>
-        /// lnkVertLaminarAirFlow control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkVertLaminarAirFlow;
-
-        /// <summary>
-        /// lnkMembraneFiltration control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkMembraneFiltration;
+        protected global::System.Web.UI.WebControls.Repeater rptCatalogue;
     }
 }

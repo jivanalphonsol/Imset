@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                        <img src="assets/images/MFT.jpg" alt="Membrane Filtration Technique (MFT) Multi-Channel Filtration System by Imset" style="width: 100%; max-width: 600px; height: auto;">
+                        <img src="assets/images/MFT1.jpg" alt="Membrane Filtration Technique (MFT) Multi-Channel Filtration System by Imset" style="width: 100%; max-width: 600px; height: auto;">
                     </div>
                     <!-- header hero image -->
                 </div>

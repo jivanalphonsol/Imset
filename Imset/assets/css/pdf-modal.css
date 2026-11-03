@@ -1,0 +1,136 @@
+/* PDF preview modal for the Product Catalogue section */
+.pdf-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    z-index: 2147483000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 40, 48, .7);
+}
+
+    .pdf-modal-overlay.active {
+        display: flex;
+    }
+
+.pdf-modal {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .4);
+}
+
+.pdf-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 20px;
+    background: linear-gradient(135deg, #007584 0%, #119bd2 100%);
+    color: #fff;
+}
+
+    .pdf-modal-head h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+.pdf-modal-close {
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+    .pdf-modal-close:hover {
+        background: rgba(255, 255, 255, .4);
+    }
+
+.pdf-modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    background: #eef3f6;
+}
+
+    .pdf-modal-body iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+.pdf-modal-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007584;
+    font-weight: 500;
+    background: #eef3f6;
+}
+
+    .pdf-modal-loading.hide {
+        display: none;
+    }
+
+.pdf-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 12px 20px;
+    border-top: 1px solid #e0e6ef;
+    background: #fff;
+}
+
+    .pdf-modal-footer a {
+        padding: 8px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        color: #007584;
+        border: 1px solid #007584;
+    }
+
+        .pdf-modal-footer a.pdf-btn-solid {
+            background: linear-gradient(to right, #33c8c1, #119bd2);
+            border-color: transparent;
+            color: #fff;
+        }
+
+@media (max-width: 600px) {
+    .pdf-modal-overlay {
+        padding: 0;
+    }
+
+    .pdf-modal {
+        height: 100vh;
+        border-radius: 0;
+    }
+}

@@ -66,6 +66,8 @@ namespace Imset
             route.MapPageRoute("404", "404", "~/404.aspx");
             route.MapPageRoute("404page", "404page", "~/404page.aspx");
             route.MapPageRoute("Addblog", "Addblog", "~/Addblog.aspx");
+            route.MapPageRoute("AddProductCatalogue", "AddProductCatalogue", "~/AddProductCatalogue.aspx");
+            route.MapPageRoute("ViewProductCatalogue", "ViewProductCatalogue", "~/ViewProductCatalogue.aspx");
             route.MapPageRoute("DBlog", "DBlog", "~/DBlog.aspx");
             route.MapPageRoute("ViewLeadgeneration", "ViewLeadgeneration", "~/ViewLeadgeneration.aspx");
         }
@@ -75,6 +77,7 @@ namespace Imset
             try
             {
                 Exception exception = Server.GetLastError();
+                if (exception != null) { imset.Model.CommonUtilities.FnWriteErrorLog("Application_Error " + Request.RawUrl, exception.ToString()); }
                 Response.Clear();
                 Server.ClearError();
 

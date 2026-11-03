@@ -23,6 +23,10 @@ namespace imset
             }
 
             Response.AppendHeader("Access-Control-Allow-Origin", "*");
+            if (!IsPostBack)
+            {
+                BindCatalogue();
+            }
             string url = Request.Url.AbsoluteUri; // Get the complete URL
             string[] segments = url.Split('/');   // Split the URL into segments
 
@@ -35,6 +39,20 @@ namespace imset
             // Now you have the extracted page name
             // You can use it as needed
             Response.Write("Page Name: " + pageName);
+        }
+
+        // Shows catalogues added from the Add Product Catalogue page
+        private void BindCatalogue()
+        {
+            try
+            {
+                rptCatalogue.DataSource = new ProductCatalogue().GetAll();
+                rptCatalogue.DataBind();
+            }
+            catch (Exception ex)
+            {
+                CommonUtilities.FnWriteErrorLog("BindCatalogue", ex.StackTrace);
+            }
         }
 
         public void ddlproducttypebind()
@@ -220,30 +238,6 @@ namespace imset
 
         //}
 
-        protected void lnkVertLaminarAirFlow_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DownloadFile("Catalogue Vertical Laminar Air Flow.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
-        protected void lnkFinalCatalogueMN_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DownloadFile("Biosafety Final Catalogue MN.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
         protected void btnSubmit_Click1(object sender, EventArgs e)
         {
            
@@ -306,18 +300,6 @@ namespace imset
 
 
 
-        }
-
-        protected void lnkMembraneFiltration_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DownloadFile("IMSET Membrane Filtration Assembly in Word Format Catalogue.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
         }
     }
 }

@@ -16,6 +16,17 @@ namespace Imset
         
         {
             Response.AppendHeader("Access-Control-Allow-Origin", "*");
+            // Admin page: never cache, so Back after logout cannot show it
+            Response.Cache.SetCacheability(System.Web.HttpCacheability.NoCache);
+            Response.Cache.SetNoStore();
+            Response.Cache.SetExpires(DateTime.UtcNow.AddMinutes(-1));
+            if (string.IsNullOrEmpty(Convert.ToString(Session["UserName"])))
+            {
+                Session.Clear();
+                Session.Abandon();
+                Response.Redirect("~/Login.aspx");
+                return;
+            }
             if (!Page.IsPostBack)
             {
                 if (!string.IsNullOrEmpty(Convert.ToString(Session["UserName"])))
@@ -32,6 +43,7 @@ namespace Imset
                 }
             }
         }
+
         private void Contactusleads()
         {
             try

@@ -214,6 +214,7 @@
             'phone_conversion_number': '91-93-20059699'
         });
     </script>
+    <link href="assets/css/nav-unify.css?v=1" rel="stylesheet" />
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -324,52 +325,46 @@
 
                                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                         <ul id="nav" class="navbar-nav ml-auto">
-                                           <li class="nav-item active">
+                                                <li class="nav-item">
                                                     <a class="page-scroll" href="/">Home</a>
                                                 </li>
-                                              <%--  <li class="nav-item">
-                                                    <a class="page-scroll" href="Home#aboutus">About Us</a>
-                                                </li>--%>
+                                            
                                                 <li class="nav-item">
                                                     <a class="page-scroll" href="Services">Services</a>
                                                 </li>
-                                            <%-- <li class="nav-item ">
-                                                  <a class="page-scroll" href="Product.aspx">Our Products</a>
-                                            </li>--%>
-                                            <li class="nav-item dropdown">
-                                                <!-- Added "dropdown" class -->
-                                                <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
-                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="Services#productscatlog">Products Catalogue</a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a class="page-scroll" href="Gallery">Gallery</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="our_clients">Our Clients</a>
-                                            </li>
-                                             <!-- <li class="nav-item">
-                                                <a class="page-scroll" href="Blog">Blog</a>
-                                            </li>-->
-                                           
-                                            <li class="nav-item active">
-                                                <a class="page-scroll" href="Login">Login</a>
-                                            </li>
-                                          
-
-                                         
+                                             
+                                                <li class="nav-item dropdown">
+                                                  
+                                                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="productsDropdown">
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                        <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                        <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                        <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
+                                                        
+                                                        
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Services#productscatlog">Products Catalogue</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="page-scroll" href="Gallery">Gallery</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Services#clients">Our Clients</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Contact">Contact Us</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Login">Login</a>
+                                                </li>
                                         </ul>
                                     </div>
                                     <!-- navbar collapse -->

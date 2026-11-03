@@ -13,6 +13,24 @@ namespace imset
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.AppendHeader("Access-Control-Allow-Origin", "*");
+            if (!IsPostBack)
+            {
+                BindCatalogue();
+            }
+        }
+
+        // Shows catalogues added from the Add Product Catalogue page
+        private void BindCatalogue()
+        {
+            try
+            {
+                rptCatalogue.DataSource = new ProductCatalogue().GetAll();
+                rptCatalogue.DataBind();
+            }
+            catch (Exception ex)
+            {
+                CommonUtilities.FnWriteErrorLog("BindCatalogue", ex.StackTrace);
+            }
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
@@ -132,30 +150,6 @@ namespace imset
             txtMessage.Text = "";
             //lnkContact.HRef = "#contact";
 
-        }
-
-        protected void lnkVertLaminarAirFlow_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DownloadFile("Catalogue Vertical Laminar Air Flow.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
-        protected void lnkFinalCatalogueMN_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DownloadFile("Biosafety Final Catalogue MN.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
         }
     }
 }

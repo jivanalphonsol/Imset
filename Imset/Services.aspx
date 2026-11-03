@@ -326,7 +326,8 @@
     gtag('config', 'UA-296464365-1');
 </script>
       <!-- Google analytics code End-->
-    </head>
+        <link href="assets/css/nav-unify.css?v=1" rel="stylesheet" />
+</head>
 <body>
     <!-- Google Tag Manager (noscript) -->
 
@@ -448,48 +449,43 @@
 
                                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                         <ul id="nav" class="navbar-nav ml-auto">
-                                            <li class="nav-item active">
-                                                <a class="page-scroll" href="/">Home</a>
-                                            </li>
-                                          <%--  <li class="nav-item">
-                                                <a class="page-scroll" href="Home#aboutus">About Us</a>
-                                            </li>--%>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="Services">services</a>
-                                            </li>
-                                          
-                                            <li class="nav-item dropdown">
-                                                <!-- Added "dropdown" class -->
-                                                <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
-                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="Services#productscatlog">Products Catalogue</a>
-                                            </li>
-                                            <li class="nav-item ">
-                                                <a class="page-scroll" href="Gallery">Gallery</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="Services#clients">Our Clients</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="Contact">Contact us</a>
-                                            </li>
-                                           <!-- <li class="nav-item">
-                                                <a class="page-scroll" href="Blog">Blog</a>
-                                            </li>-->
-
-                                               
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="/">Home</a>
+                                                </li>
+                                            
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Services">Services</a>
+                                                </li>
+                                             
+                                                <li class="nav-item dropdown">
+                                                  
+                                                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="productsDropdown">
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                        <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                        <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                        <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
+                                                        
+                                                        
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Services#productscatlog">Products Catalogue</a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="page-scroll" href="Gallery">Gallery</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Services#clients">Our Clients</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="page-scroll" href="Contact">Contact Us</a>
+                                                </li>
                                         </ul>
                                     </div>
                                     <!-- navbar collapse -->
@@ -848,23 +844,45 @@
             </div>
         </div>
     </div>
-<div class="row" style="justify-content: center;">
-    <div class="about-content col-lg-4 col-md-4 col-sm-6 mt-10 wow fadeInUpBig text-center" data-wow-duration="1.4s" data-wow-delay="0.7s" style="margin: 0 5px;">
-        <asp:LinkButton ID="lnkFinalCatalogueMN" class="main-btn" runat="server" OnClick="lnkFinalCatalogueMN_Click" title="Click here to download Catalogue" style="display: inline-block; width: 300px;">
-            Biosafety Cabinet Catalogue
-        </asp:LinkButton>
-    </div>
-    <div class="about-content col-lg-4 col-md-4 col-sm-6 mt-10 wow fadeInUpBig text-center" data-wow-duration="1.4s" data-wow-delay="0.7s" style="margin: 0 5px;">
-        <asp:LinkButton ID="lnkVertLaminarAirFlow" class="main-btn" runat="server" OnClick="lnkVertLaminarAirFlow_Click" title="Click here to download Catalogue" style="display: inline-block; width: 300px;">
-            Vertical Laminar Air Flow Catalogue
-        </asp:LinkButton>
-    </div>
-    <div class="about-content col-lg-4 col-md-4 col-sm-6 mt-10 wow fadeInUpBig text-center" data-wow-duration="1.4s" data-wow-delay="0.7s" style="margin: 0 5px;">
-        <asp:LinkButton ID="lnkMembraneFiltration" class="main-btn" runat="server" OnClick="lnkMembraneFiltration_Click" title="Click here to download Catalogue" style="display: inline-block; width: 450px;">
-            Membrane Filtration Technique (MFT) Assembly Set Up
-        </asp:LinkButton>
-    </div>
-</div>
+                    <%-- Catalogues added from Add Product Catalogue --%>
+                    <link href="assets/css/catalogue-cards.css?v=1" rel="stylesheet" />
+                    <div class="cat-grid">
+                        <asp:Repeater ID="rptCatalogue" runat="server">
+                            <ItemTemplate>
+                                <a class="cat-card js-pdf" href='<%# ResolveUrl("~/" + Eval("PdfFile")) %>' data-title='<%# Server.HtmlEncode(Convert.ToString(Eval("Title"))) %>' target="_blank" rel="noopener">
+                                    <span class="cat-icon">
+                                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /></svg>
+                                    </span>
+                                    <span class="cat-tag">Catalogue</span>
+                                    <span class="cat-name"><%# Server.HtmlEncode(Convert.ToString(Eval("Title"))) %></span>
+                                    <span class="cat-desc"><%# Server.HtmlEncode(Convert.ToString(Eval("Description"))) %></span>
+                                    <span class="cat-dl">
+                                        <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
+                                        View PDF
+                                    </span>
+                                </a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                    <%-- PDF preview modal (opened by links with class js-pdf) --%>
+                    <link href="assets/css/pdf-modal.css?v=2" rel="stylesheet" />
+                    <div id="pdfPreviewModal" class="pdf-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="pdfModalTitle">
+                        <div class="pdf-modal">
+                            <div class="pdf-modal-head">
+                                <h3 id="pdfModalTitle">PDF Preview</h3>
+                                <button type="button" id="pdfModalClose" class="pdf-modal-close" title="Close" aria-label="Close">&times;</button>
+                            </div>
+                            <div class="pdf-modal-body">
+                                <div id="pdfModalLoading" class="pdf-modal-loading">Loading catalogue...</div>
+                                <iframe id="pdfModalFrame" title="Catalogue preview"></iframe>
+                            </div>
+                            <div class="pdf-modal-footer">
+                                <a id="pdfModalFullscreen" href="#" target="_blank" rel="noopener">Open in new tab</a>
+                                <a id="pdfModalDownload" href="#" class="pdf-btn-solid" download>Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="assets/js/pdf-modal.js?v=2"></script>
 
 
 

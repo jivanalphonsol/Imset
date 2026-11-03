@@ -1,0 +1,119 @@
+/* Product Catalogue cards (Services / Index) */
+.cat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin: 30px 0 10px;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 18px 24px;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0, 117, 132, .12);
+    text-decoration: none !important;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+    .cat-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 18px 40px rgba(0, 117, 132, .22);
+    }
+
+.cat-icon {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #e3f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+    .cat-icon svg {
+        width: 28px;
+        height: 28px;
+        stroke: #119bd2;
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+.cat-tag {
+    display: inline-block;
+    padding: 5px 16px;
+    margin-bottom: 14px;
+    border-radius: 20px;
+    background: #e3f5f7;
+    color: #119bd2;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.cat-name {
+    color: #0b3b44;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 10px;
+}
+
+.cat-desc {
+    color: #6b7c8c;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    min-height: 20px;
+    text-transform: uppercase;
+}
+
+.cat-dl {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 24px;
+    border-radius: 30px;
+    background: #e3f5f7;
+    border: 1px solid #b9e3ea;
+    color: #119bd2;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .25s;
+}
+
+    .cat-dl svg {
+        width: 14px;
+        height: 14px;
+        stroke: currentColor;
+        fill: none;
+        stroke-width: 2.4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+.cat-card:hover .cat-dl {
+    background: linear-gradient(to right, #33c8c1, #119bd2);
+    border-color: transparent;
+    color: #fff;
+}
+
+@media (max-width: 1100px) {
+    .cat-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 800px) {
+    .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+
+@media (max-width: 480px) {
+    .cat-grid { grid-template-columns: 1fr; }
+}

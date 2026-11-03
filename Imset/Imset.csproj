@@ -88,6 +88,9 @@
     <Content Include="404.aspx" />
     <Content Include="404page.aspx" />
     <Content Include="Addblog.aspx" />
+    <Content Include="AddProductCatalogue.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="ViewProductCatalogue.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\Blogcontent.css" />
     <Content Include="assets\css\bootstrap.min.css" />
@@ -451,6 +454,28 @@
     </Compile>
     <Compile Include="404page.aspx.designer.cs">
       <DependentUpon>404page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProductCatalogue.cs" />
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProductCatalogue.aspx.cs">
+      <DependentUpon>AddProductCatalogue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProductCatalogue.aspx.designer.cs">
+      <DependentUpon>AddProductCatalogue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProductCatalogue.aspx.cs">
+      <DependentUpon>ViewProductCatalogue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewProductCatalogue.aspx.designer.cs">
+      <DependentUpon>ViewProductCatalogue.aspx</DependentUpon>
     </Compile>
     <Compile Include="Addblog.aspx.cs">
       <DependentUpon>Addblog.aspx</DependentUpon>
