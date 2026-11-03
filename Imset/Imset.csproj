@@ -136,6 +136,18 @@
     <Content Include="assets\images\banner_III.png" />
     <Content Include="assets\images\banner_III_02.png" />
     <Content Include="assets\images\banner_III_03.png" />
+    <Content Include="assets\images\MFT.jpg" />
+    <Content Include="assets\images\FINAL.png" />
+    <Content Include="assets\images\gallery\SS BIOSAFETY CABINET 4X2 A2 -.png" />
+    <Content Include="assets\images\gallery\SS BIOSAFETY CABINET 4X2 A2 --.png" />
+    <Content Include="assets\images\gallery\SS BIOSAFETY CABINET 4X2 A2_.png" />
+    <Content Include="assets\images\gallery\SS BSC B2 4X2 -.png" />
+    <Content Include="assets\images\gallery\SS BSC B2 4X2 --.png" />
+    <Content Include="assets\images\gallery\SS BSC B2 4X2_.png" />
+    <Content Include="assets\images\WATER PROOF SOCKET.png" />
+    <Content Include="assets\images\TOUCHSCREE DISPLAY-.png" />
+    <Content Include="assets\images\TOUCHSCREE DISPLAY.png" />
+    <Content Include="assets\images\Stainless Steel Three-Station Manifold.png" />
     <Content Include="assets\images\banner_Workstation_1.png" />
     <Content Include="assets\images\banner_Workstation_2.png" />
     <Content Include="assets\images\banner_Workstation_3.png" />
@@ -415,6 +427,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="our_clients.aspx" />
+    <Content Include="Membrane-Filtration-Technique.aspx" />
     <Content Include="PCR-Workstation.aspx" />
     <Content Include="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow.aspx" />
     <Content Include="Product.aspx" />
@@ -566,6 +579,13 @@
     <Compile Include="our_clients.aspx.designer.cs">
       <DependentUpon>our_clients.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Membrane-Filtration-Technique.aspx.cs">
+      <DependentUpon>Membrane-Filtration-Technique.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Membrane-Filtration-Technique.aspx.designer.cs">
+      <DependentUpon>Membrane-Filtration-Technique.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PCR-Workstation.aspx.cs">
       <DependentUpon>PCR-Workstation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -667,6 +687,8 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
+          <StartAction>SpecificPage</StartAction>
+          <StartPageUrl>Home.aspx</StartPageUrl>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50018</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

@@ -30,7 +30,7 @@
                             <br />
                             <br />
                             <div class="mySlides1">
-                                <img src="assets/images/Biological SafetyCabinets7.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological SafetyCabinets7.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />
                             <br />
@@ -51,7 +51,7 @@
                             <br />
 
                             <div >
-                                <img src="assets/images/Biological Safety Cabinets.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological Safety Cabinets.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />
                             <br />
@@ -129,7 +129,7 @@
                             <br />
                             
                             <%--<div class="mySlides1">
-                                <img src="assets/images/Biological SafetyCabinets3.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological SafetyCabinets3.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />--%>
                             <br />

@@ -82,6 +82,25 @@
             text-align: justify;
         }
 
+        /* Keep hero text clear of the fixed header and readable on the blue banner */
+        .header-hero-content {
+            padding-top: 260px;
+            position: relative;
+            z-index: 2;
+        }
+
+            .header-hero-content .header-title,
+            .header-hero-content .text {
+                color: #ffffff !important;
+                text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+            }
+
+        @media (max-width: 767px) {
+            .header-hero-content {
+                padding-top: 200px;
+            }
+        }
+
         .navbar-brand {
             padding: 0;
             margin-left: 60px;
@@ -323,15 +342,13 @@
                                                 </a>
                                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                                     <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety cabinet Class II B2 </a>
-                                                    <!-- Add more dropdown items as needed -->
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III </a>
-
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet </a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow </a>
-                                                    <a class="dropdown-item" href="#">Membrane Filtration Technique</a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation </a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet </a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">
@@ -343,9 +360,9 @@
                                             <li class="nav-item">
                                                 <a class="page-scroll" href="our_clients">Our Clients</a>
                                             </li>
-                                              <li class="nav-item">
+                                             <!-- <li class="nav-item">
                                                 <a class="page-scroll" href="Blog">Blog</a>
-                                            </li>
+                                            </li>-->
                                            
                                             <li class="nav-item active">
                                                 <a class="page-scroll" href="Login">Login</a>
@@ -387,7 +404,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                                    <img src="assets/images/contactUS.png" alt="hero">
+                                    <img loading="lazy" decoding="async" src="assets/images/contactUS.png" alt="hero">
                                 </div>
                                 <!-- header hero image -->
                             </div>
@@ -528,7 +545,7 @@
 
         <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
 
-            <img id="imgCaptcha"
+            <img loading="lazy" decoding="async" id="imgCaptcha"
                  src="Captcha.aspx"
                  alt="CAPTCHA verification code"
                  style="width:180px; height:60px; border:1px solid #ddd;" />
@@ -582,7 +599,7 @@
                 </div>
                 <!-- container -->
                 <div class="about-shape-1">
-                    <img src="assets/images/about-shape-1.svg" alt="shape">
+                    <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="shape">
                 </div>
             </section>
 
@@ -594,92 +611,92 @@
         <div class="image-container">
             <ul class="current-images">
                 <li>
-                    <img src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
                     <span class="image-title">ACG ASSOCIATED CAPSULE PVT LTD</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
                     <span class="image-title">BETHANY HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
                     <span class="image-title">CHITKARA UNIVERSITY</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
                       <span class="image-title">HOLY SPIRIT HOSPITAL BSC B2 </span>
                 </li>--%>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
                     <span class="image-title">K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>--%>
 
                   <li>
-                    <img src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
                     <span class="image-title">SION HOSPITAL </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
                     <span class="image-title">PUNJAB UNIVERSITY </span>
                 </li>
                   <li>
-                    <img src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
                     <span class="image-title">IIT BOMBAY </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
                     <span class="image-title">AIIMS BHOPAL </span>
                 </li>
                   <li>
-                    <img src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
                     <span class="image-title">BREACH CANDY HOSPITAL</span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
                     <span class="image-title">PATANJALI RESEARCH INSTITUTE, HARIDWAR</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
                     <span class="image-title">KOLHAPUR CANCER CENTER</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
                     <span class="image-title">LUPIN DIAGNOSTICS VARANASI</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
                     <span class="image-title">SAIPRASAD MEDICARE PVT LTD </span>
                 </li>
                
@@ -697,9 +714,9 @@
                                     </a>
                                     <p class="text wrap-txt">Imset is India's leading Biosafety cabinet company, which manufactures and supplies most reliable, durable .Discover top-tier Biosafety Cabinets and Vertical Laminar Airflow systems crafted with precision in India. Our expertise lies in providing advanced containment solutions to safeguard your workspace. With a commitment to quality, we offer customizable options that cater to your unique requirements. Elevate your safety standards with our innovative solutions. </p>
                                     <ul class="social">
-                                        <li><a href="https://www.facebook.com/imsetIndia" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                                        <!--<li><a href="https://www.facebook.com/imsetIndia" target="_blank"><i class="lni-facebook-filled"></i></a></li>
 
-                                        <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                                        <li><a href="#"><i class="lni-twitter-filled"></i></a></li>-->
                                         <li><a href="https://instagram.com/imsetbiosafetycabinet?utm_source=qr&igshid=OGIxMTE0OTdkZA==" target="_blank"><i class="lni-instagram-filled"></i></a></li>
                                         <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
                                     </ul>
@@ -723,7 +740,7 @@
                                             <li><a href="our_clients">Our Clients</a></li>
                                             <li><a href="Contact">Contact US</a></li>
                                             <li><a href="FAQ">FAQ</a></li>
-                                            <li><a href="Blog">Blog</a></li>
+                                            <!--<li><a href="Blog">Blog</a></li>-->
                                         </ul>
                                     </div>
                                     <!-- footer wrapper -->

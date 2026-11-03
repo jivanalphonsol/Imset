@@ -173,7 +173,7 @@
                             <h4 class="subHedtagh4">Class III Biosafety Cabinets</h4>
                             <br />
                             <div class="mySlides">
-                                <img src="assets/images/Biosafety_Cabinets_Class III.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biosafety_Cabinets_Class III.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                                 <br />
                                 <br />
                                 <p>
@@ -187,7 +187,7 @@
                             <h4 class="subHedtagh4">Polypropylene Biosafety Cabinets: A Leap in Laboratory Safety</h4>
                             <br />
                             <div class="mySlides">
-                                <img src="assets/images/PolyCabinetAirFlow.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                             </div>
 
                             <p>
@@ -213,7 +213,7 @@
                             </p>
                             <br />
                            <%-- <div class="mySlides1">
-                                <img src="assets/images/Biosafety Cabinets4.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biosafety Cabinets4.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                             </div>--%>
                             <br />
 
@@ -246,7 +246,7 @@
                             <br />
                             <br />
                             <div class="mySlides1">
-                                <img src="assets/images/Biological SafetyCabinets1.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological SafetyCabinets1.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />
                             <br />
@@ -262,7 +262,7 @@
                             <br />
 
                             <div class="mySlides1">
-                                <img src="assets/images/Biological SafetyCabinets2.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological SafetyCabinets2.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />
                             <br />
@@ -335,7 +335,7 @@
                             <br />
 
                             <div class="mySlides1">
-                                <img src="assets/images/Biological SafetyCabinets3.png" alt="Biosafety Cabinets Class II A2" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biological SafetyCabinets3.png" alt="Biosafety Cabinets Class II A2" />
                             </div>
                             <br />
                             <br />

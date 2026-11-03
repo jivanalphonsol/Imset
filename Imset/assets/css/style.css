@@ -686,7 +686,7 @@ p {
     }
 
 .navbar {
-    padding: 25px 0;
+    
     border-radius: 5px;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -2398,3 +2398,41 @@ p {
     animation: scrollImages 20s linear infinite; /* Adjust the animation duration as needed */
 }
 
+
+/* Keep the "Our Products" dropdown toggle aligned and coloured like the other menu items */
+.navbar-nav .nav-item > a.nav-link.dropdown-toggle {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-item > a.nav-link.dropdown-toggle:hover,
+.navbar-nav .nav-item.show > a.nav-link.dropdown-toggle {
+    color: #361CC1;
+}
+
+/* "Our Products" buttons: one colour, equal width, aligned edges */
+.product-grid > .m5 > .main-btn {
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-grid > .m5 {
+    padding: 0 10px;
+}
+
+/* Same size for every product button; long labels wrap inside the fixed height */
+.product-grid > .m5 > .main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    line-height: 1.3;
+    white-space: normal;
+    text-overflow: clip;
+}

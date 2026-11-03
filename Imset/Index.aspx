@@ -272,15 +272,14 @@
                                                 <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Products
                                                 </a>
                                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-A2.aspx">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety cabinet Class II B2 </a>
-                                                    <!-- Add more dropdown items as needed -->
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III </a>
-
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet </a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow </a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation </a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet </a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">
@@ -356,11 +355,11 @@
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
+                                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
+                                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
@@ -373,12 +372,12 @@
                                         <!-- Left and right controls -->
                                         <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                             <span class="" aria-hidden="true">
-                                                <img src="assets/images/previous.png"></span>
+                                                <img loading="lazy" decoding="async" src="assets/images/previous.png"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
                                         <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                             <span class="" aria-hidden="true">
-                                                <img src="assets/images/next.png"></span>
+                                                <img loading="lazy" decoding="async" src="assets/images/next.png"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
                                     </div>
@@ -452,22 +451,22 @@
                         <div class="col-lg-12">
                             <div class="brand-logo d-flex align-items-center justify-content-center">
                                 <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <img src="assets/images/brand-1.png" alt="brand">
+                                    <img loading="lazy" decoding="async" src="assets/images/brand-1.png" alt="brand">
                                 </div>
                                 <!-- single logo -->
                                 <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                    <img src="assets/images/brand-2.png" alt="brand">
+                                    <img loading="lazy" decoding="async" src="assets/images/brand-2.png" alt="brand">
                                 </div>
                                 <!-- single logo -->
                                 <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                    <img src="assets/images/brand-3.png" alt="brand">
+                                    <img loading="lazy" decoding="async" src="assets/images/brand-3.png" alt="brand">
                                 </div>
                                 <!-- single logo -->
                                 <!--  <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                            <img src="assets/images/brand-4.png" alt="brand">
+                            <img loading="lazy" decoding="async" src="assets/images/brand-4.png" alt="brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                            <img src="assets/images/brand-5.png" alt="brand">
+                            <img loading="lazy" decoding="async" src="assets/images/brand-5.png" alt="brand">
                         </div> <!-- single logo -->
                             </div>
                             <!-- brand logo -->
@@ -510,7 +509,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img src="assets/images/about1.png" alt="about">
+                                <img loading="lazy" decoding="async" src="assets/images/about1.png" alt="about">
                             </div>
                             <!-- about image -->
                         </div>
@@ -527,7 +526,7 @@
                     </div>
                     <!-- container -->
                     <div class="about-shape-1">
-                        <img src="assets/images/about-shape-1.svg" alt="shape">
+                        <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="shape">
                     </div>
                 </div>
             </section>
@@ -567,7 +566,7 @@
                         <div class="col-lg-4 col-md-7 col-sm-8">
                             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <div class="team-image">
-                                    <video class="video1" width="320" height="240" autoplay muted>
+                                    <video preload="none" class="video1" width="320" height="240" autoplay muted>
                                         <source src="assets/images/audio_01.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
@@ -580,7 +579,7 @@
                         <div class="col-lg-4 col-md-7 col-sm-8">
                             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div class="team-image">
-                                    <video class="video1" width="320" height="240" autoplay muted>
+                                    <video preload="none" class="video1" width="320" height="240" autoplay muted>
                                         <source src="assets/images/audio_02.mp4" type="video/ogg">
                                     </video>
 
@@ -684,7 +683,7 @@
                 </div>
                 <!-- container -->
                 <div class="about-shape-1">
-                    <img src="assets/images/about-shape-1.svg" alt="shape">
+                    <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="shape">
                 </div>
             </section>
 

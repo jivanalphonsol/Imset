@@ -120,12 +120,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="biosafety-cabinet-class-II-B2"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="biosafety-cabinet-class-II-B2"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="biosafety-cabinet-class-II-B2"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="biosafety-cabinet-class-II-B2"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -146,7 +146,7 @@
                       <div class="col-lg-5 ">
                         <div class="about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="divaboutus p-5">
-                               <img src="assets/images/gallery/gallery4.png" alt="BSC B2 SS Manufacture by Imset" height="400px" />
+                               <img loading="lazy" decoding="async" src="assets/images/gallery/gallery4.png" alt="BSC B2 SS Manufacture by Imset" height="400px" />
  
                             </div>
 
@@ -334,7 +334,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-II-B2">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-II-B2">
         </div>
     </section>
 
@@ -387,7 +387,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-II-B2">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-II-B2">
         </div>
         <div class="container ">
             <div class="">
@@ -618,7 +618,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-II-B2 shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-II-B2 shape">
         </div>
     </section>
 
@@ -671,7 +671,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-II-B2 shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-II-B2 shape">
         </div>
         <div class="container ">
             <div class="">

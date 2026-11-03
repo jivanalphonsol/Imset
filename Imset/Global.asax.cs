@@ -47,6 +47,7 @@ namespace Imset
             route.MapPageRoute("A5", "Vertical-Laminar-Air-Flow-Cabinet", "~/Vertical-Laminar-Air-Flow-Cabinet.aspx");
             route.MapPageRoute("A6", "PCR-Workstation", "~/PCR-Workstation.aspx");
             route.MapPageRoute("A7", "Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow", "~/Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow.aspx");
+            route.MapPageRoute("A7b", "Membrane-Filtration-Technique", "~/Membrane-Filtration-Technique.aspx");
 
             route.MapPageRoute("A8", "FAQ", "~/Faq.aspx");
             route.MapPageRoute("A9", "Gallery", "~/gallery.aspx");

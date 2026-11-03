@@ -423,15 +423,13 @@
                                                 </a>
                                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                                     <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety cabinet Class II B2 </a>
-                                                    <!-- Add more dropdown items as needed -->
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III </a>
-
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet </a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow </a>
-                                                    <a class="dropdown-item" href="#">Membrane Filtration Technique</a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation </a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet </a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">
@@ -500,10 +498,10 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="video-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img class="dots" src="assets/images/dots.svg" alt="dots">
+                                <img loading="lazy" decoding="async" class="dots" src="assets/images/dots.svg" alt="dots">
                                 <div class="video-wrapper">
                                     <div class="video-image">
-                                        <img src="assets/images/video.png" alt="video">
+                                        <img loading="lazy" decoding="async" src="assets/images/video.png" alt="video">
                                     </div>
                                     <div class="video-icon">
                                         <div class="video-icon">
@@ -550,11 +548,11 @@
                                                                                 <div class="carousel-caption d-md-block"></div>
                                                                             </div>
                                                                             <div class="carousel-item">
-                                                                                <img src="assets/images/Customizedcabinet.png" data-color="firebrick" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
+                                                                                <img loading="lazy" decoding="async" src="assets/images/Customizedcabinet.png" data-color="firebrick" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
                                                                                 <div class="carousel-caption d-md-block"></div>
                                                                             </div>
                                                                             <div class="carousel-item">
-                                                                                <img src="assets/images/VerticleLaminarFlow_1.png" data-color="firebrick" alt="Verticle Laminar Air Flow  Manufacture by Imset">
+                                                                                <img loading="lazy" decoding="async" src="assets/images/VerticleLaminarFlow_1.png" data-color="firebrick" alt="Verticle Laminar Air Flow  Manufacture by Imset">
                                                                                 <div class="carousel-caption d-md-block"></div>
                                                                             </div>
                                                                             <div class="carousel-item">
@@ -562,7 +560,7 @@
                                                                                 <div class="carousel-caption d-md-block"></div>
                                                                             </div>
                                                                             <div class="carousel-item">
-                                                                                <img src="assets/images/PolyCabinetAirFlow.png" data-color="firebrick" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
+                                                                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" data-color="firebrick" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
                                                                                 <div class="carousel-caption d-md-block"></div>
                                                                             </div>
                                                                             <div class="carousel-item">
@@ -638,6 +636,10 @@
                                         <a href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow" class="main-btn wow fadeInUp LH" data-wow-duration="1.6s" data-wow-delay="0.8s">Polypropylene Biosafety Cabinet /
                                             <br>
                                             Polypropylene Laminar Air Flow
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 m5">
+                                        <a href="Membrane-Filtration-Technique" class="main-btn wow fadeInUp" data-wow-duration="1.7s" data-wow-delay="0.8s">Membrane Filtration Technique
                                         </a>
                                     </div>
 

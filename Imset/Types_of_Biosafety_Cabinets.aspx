@@ -67,7 +67,7 @@
 
                                 <%-- <img src="assets/images/banner_IIA_3.png" alt="Biosafety Cabinets Class II A2" />--%>
                                 <div>
-                                    <img src="assets/images/Biological Safety Cabinets.png" alt="Biosafety Cabinets Class II A2" />
+                                    <img loading="lazy" decoding="async" src="assets/images/Biological Safety Cabinets.png" alt="Biosafety Cabinets Class II A2" />
                                 </div>
                                 <p><a target="_blank" href="biosafety-cabinet-class-II-A2">Class II biosafety cabinets</a> are further classified into four types: Class II A2 and Class II B2, depending on the level of protection they provide. These cabinets offer both personnel and environmental protection by creating a controlled environment with laminar airflow. They also have HEPA filters that remove any airborne particles, ensuring a clean working space.</p>
 
@@ -78,7 +78,7 @@
                             <h4 class="subHedtagh4">Class III Biosafety Cabinets</h4>
                             <br />
                             <div class="mySlides">
-                                <img src="assets/images/Biosafety_Cabinets_Class III.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biosafety_Cabinets_Class III.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                                 <br />
                                 <br />
                                 <p>
@@ -91,7 +91,7 @@
                             <h4 class="subHedtagh4">Polypropylene Biosafety Cabinets: A Leap in Laboratory Safety</h4>
                             <br />
                             <div class="mySlides">
-                                <img src="assets/images/PolyCabinetAirFlow.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                             </div>
 
                             <p>
@@ -118,7 +118,7 @@
                             </p>
                             <br />
                             <%-- <div class="mySlides1">
-                                <img src="assets/images/Biosafety Cabinets4.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
+                                <img loading="lazy" decoding="async" src="assets/images/Biosafety Cabinets4.png" alt="Biosafety Cabinets Class II A2" class="imgstyle" />
                             </div>--%>
                             <br />
 

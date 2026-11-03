@@ -83,15 +83,15 @@
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/Cabinet_III_03.png" data-color="firebrick" alt="Biosafety Cabinet Class III Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/Cabinet_III_03.png" data-color="firebrick" alt="Biosafety Cabinet Class III Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/Cabinet_III_05.png" data-color="firebrick" alt="Biosafety Cabinet Class III Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/Cabinet_III_05.png" data-color="firebrick" alt="Biosafety Cabinet Class III Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/Cabinet_III_04.png" data-color="violet" alt="Biosafety Cabinet Class III Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/Cabinet_III_04.png" data-color="violet" alt="Biosafety Cabinet Class III Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                             </div>
@@ -101,12 +101,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="biosafety-cabinet-class-III Previous"> </span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="biosafety-cabinet-class-III Previous"> </span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="biosafety-cabinet-class-III next"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="biosafety-cabinet-class-III next"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -243,7 +243,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-III shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-III shape">
         </div>
     </section>
 
@@ -297,7 +297,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-III shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="biosafety-cabinet-class-III shape">
         </div>
         <div class="container ">
             <div class="">
@@ -530,7 +530,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-III shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="biosafety-cabinet-class-III shape">
         </div>
     </section>
 

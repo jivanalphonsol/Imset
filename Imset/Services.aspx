@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="imset.Index" EnableEventValidation="false" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
@@ -122,20 +121,21 @@
                 display: none;
                 position: fixed;
                 right: 0; /* Position on the right side */
-                
+
                 overflow-y: auto;
                 max-height: 80vh;
             }
-             #side-suggestion-button {
-            display: none;
-            position: fixed;
-            Right: 8%;
-            bottom: 0;
-            width: 15%;
-            z-index: 1000;
-            display: block;
-            top: 400px;
-        }
+
+            #side-suggestion-button {
+                display: none;
+                position: fixed;
+                Right: 8%;
+                bottom: 0;
+                width: 15%;
+                z-index: 1000;
+                display: block;
+                top: 400px;
+            }
         }
 
         #sidesuggestion .dismiss {
@@ -244,28 +244,26 @@
                 }
     </style>
      <style>
-     
-        .dropdown-menu {
-            display: none;  
-        }
+         .dropdown-menu {
+             display: none;
+         }
 
-        /* Media query for mobile devices (up to 768px) */
-        @media (max-width: 768px) {
-            /*  Show the dropdown menu when the screen width is less than or equal to 768px */
-            .dropdown-menu {
-                display: block;
-                overflow-y: auto;
-                max-height: 200px;
-            }
-             .navbar-nav  {
-              display: block;
-                max-height: 300px;
-            overflow-y: auto;
-        }
-        }
+         /* Media query for mobile devices (up to 768px) */
+         @media (max-width: 768px) {
+             /*  Show the dropdown menu when the screen width is less than or equal to 768px */
+             .dropdown-menu {
+                 display: block;
+                 overflow-y: auto;
+                 max-height: 200px;
+             }
 
-       
-    </style>
+             .navbar-nav {
+                 display: block;
+                 max-height: 300px;
+                 overflow-y: auto;
+             }
+         }
+     </style>
     <script>
         var loc = window.location.href + '';
         if (loc.indexOf('http://') == 0) {
@@ -415,8 +413,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                                             </svg>  
-                                            <span>: marketing.imset@gmail.com</span>  
-
+                                            <span>: marketing.imset@gmail.com</span>
                                         </a>
 
                                     </li>
@@ -467,15 +464,13 @@
                                                 </a>
                                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                                     <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety cabinet Class II B2 </a>
-                                                    <!-- Add more dropdown items as needed -->
-                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III </a>
-
-                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet </a>
-                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow </a>
-                                                    <a class="dropdown-item" href="#">Membrane Filtration Technique</a>
-                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation </a>
-                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet </a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                    <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                    <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                    <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                    <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                    <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">
@@ -490,9 +485,9 @@
                                             <li class="nav-item">
                                                 <a class="page-scroll" href="Contact">Contact us</a>
                                             </li>
-                                            <li class="nav-item">
+                                           <!-- <li class="nav-item">
                                                 <a class="page-scroll" href="Blog">Blog</a>
-                                            </li>
+                                            </li>-->
 
                                                
                                         </ul>
@@ -554,11 +549,11 @@
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
+                                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
+                                                <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
                                                 <div class="carousel-caption d-md-block"></div>
                                             </div>
                                             <div class="carousel-item">
@@ -571,12 +566,12 @@
                                         <!-- Left and right controls -->
                                         <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                             <span class="" aria-hidden="true">
-                                                <img src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
+                                                <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
                                         <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                             <span class="" aria-hidden="true">
-                                                <img src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
+                                                <img loading="lazy" decoding="async" src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
                                     </div>
@@ -803,7 +798,7 @@
                         <div class="col-lg-4 col-md-7 col-sm-8">
                             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <div class="team-image">
-                                    <video class="video1" width="320" height="240" autoplay muted>
+                                    <video preload="none" class="video1" width="320" height="240" autoplay muted>
                                         <source src="assets/images/audio_01.mp4" type="video/mp4">
                                        
                                     </video>
@@ -816,7 +811,7 @@
                         <div class="col-lg-4 col-md-7 col-sm-8">
                             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div class="team-image">
-                                    <video class="video1" width="320" height="240" autoplay muted>
+                                    <video preload="none" class="video1" width="320" height="240" autoplay muted>
                                         <source src="assets/images/audio_02.mp4" type="video/ogg">
                                     </video>
 
@@ -918,7 +913,7 @@
                 </div>
                 <!-- container -->
                 <div class="about-shape-1">
-                    <img src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
+                    <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
                 </div>
             </section>
 
@@ -935,20 +930,23 @@
                         </div>
 
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            <img src="assets/images/brand-2.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/brand-2.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1s" data-wow-delay="0.2s">
 
-                            <img src="assets/images/download.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/download.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1s" data-wow-delay="0.2s">
 
-                            <img src="assets/images/gmp.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/gmp.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc " data-wow-duration="1s" data-wow-delay="0.2s" style="margin-top: 100px;">
 
                             <img src="assets/images/Makeinindialogo.jpg" alt=" Biosafety cabinet brand">
                         </div>
+                        <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1.5s" data-wow-delay="0.2s">
+    <img src="assets/images/gem-logo(1).png" alt=" Biosafety cabinet brand">
+</div>
 
                     </div>
 
@@ -962,93 +960,93 @@
         <div class="image-container">
             <ul class="current-images">
                 <li>
-                    <img src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
                     <span class="image-title">ACG ASSOCIATED CAPSULE PVT LTD</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
                     <span class="image-title">BETHANY HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
                     <span class="image-title">CHITKARA UNIVERSITY</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
                       <span class="image-title">HOLY SPIRIT HOSPITAL BSC B2 </span>
                 </li>--%>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
                     <span class="image-title">K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>--%>
 
                   <li>
-                    <img src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
                     <span class="image-title">SION HOSPITAL </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
                     <span class="image-title">PUNJAB UNIVERSITY </span>
                 </li>
                   <li>
-                    <img src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
                     <span class="image-title">IIT BOMBAY </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
                     <span class="image-title">AIIMS BHOPAL </span>
                 </li>
 
                   <li>
-                    <img src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
                     <span class="image-title">BREACH CANDY HOSPITAL</span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
                     <span class="image-title">PATANJALI RESEARCH INSTITUTE, HARIDWAR</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
                     <span class="image-title">KOLHAPUR CANCER CENTER</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
                     <span class="image-title">LUPIN DIAGNOSTICS VARANASI</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
                     <span class="image-title">SAIPRASAD MEDICARE PVT LTD </span>
                 </li>
                
@@ -1070,8 +1068,8 @@
                                     <p class="text wrap-txt demopara">Imset is India's leading Biosafety cabinet company, which manufactures and supplies most reliable, durable .Discover top-tier Biosafety Cabinets and Vertical Laminar Airflow systems crafted with precision in India. Our expertise lies in providing advanced containment solutions to safeguard your workspace. With a commitment to quality, we offer customizable options that cater to your unique requirements. Elevate your safety standards with our innovative solutions. </p>
 
                                     <ul class="social">
-                                        <li><a href="https://www.facebook.com/imsetIndia" target="_blank"><i class="lni-facebook-filled"></i></a></li>
-                                        <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                                        <!--<li><a href="https://www.facebook.com/imsetIndia" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                                        <li><a href="#"><i class="lni-twitter-filled"></i></a></li>-->
                                         <li><a href="https://instagram.com/imsetbiosafetycabinet?utm_source=qr&igshid=OGIxMTE0OTdkZA==" target="_blank"><i class="lni-instagram-filled"></i></a></li>
                                         <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
                                     </ul>
@@ -1095,7 +1093,7 @@
                                             <li><a href="our_clients">Our Clients</a></li>
                                             <li><a href="Contact">Contact US</a></li>
                                             <li><a href="FAQ">FAQ</a></li>
-                                            <li><a href="Blog">Blog</a></li>
+                                            <!--<li><a href="Blog">Blog</a></li>-->
                                         </ul>
                                     </div>
                                     <!-- footer wrapper -->
@@ -1113,6 +1111,7 @@
 
                                         <li><i class="fa fa-envelope pr-10 fa-halfx"></i>marketing.imset@gmail.com </li>
                                         <li><i class="fa fa-envelope pr-10 fa-halfx"></i>imset.in@gmail.com</li>
+                                        <li><i class="fa fa-envelope pr-10 fa-halfx"></i>admin@imset.co.in.</li>
                                         <li><i class="fa fa fa-globe pr-10 fa-halfx"></i>www.imset.co.in</li>
                                         <li>
                                         <i class="fa fa-map-marker pr-10 fa-halfx"></i>IMSET House,

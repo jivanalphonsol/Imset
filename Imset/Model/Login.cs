@@ -18,7 +18,7 @@ namespace Imset.Model
             try
             {
                 SqlConnection con = new SqlConnection(Connection.getConnection());
-                SqlCommand cmd = new SqlCommand("UserLoginDetails", con);
+                SqlCommand cmd = new SqlCommand("alpha.UserLoginDetails", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@type", param.Type);
                 cmd.Parameters.AddWithValue("@username", param.UserName);

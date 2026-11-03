@@ -319,7 +319,7 @@
                                     <div class="single-team  mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                         <div class="card">
                                             <a href='<%# "DBlog.aspx?id=" + Eval("Blog_id") %>'>
-                                                <img src='<%# Eval("ImagePath") %>' alt="BIOSAFETY CABINET Manufacture by Imset" />
+                                                <img loading="lazy" decoding="async" src='<%# Eval("ImagePath") %>' alt="BIOSAFETY CABINET Manufacture by Imset" />
 
                                             </a>
                                             <div class=" cardtxt">
@@ -369,92 +369,92 @@
         <div class="image-container">
             <ul class="current-images">
                 <li>
-                    <img src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
                     <span class="image-title">ACG ASSOCIATED CAPSULE PVT LTD</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
                     <span class="image-title">BETHANY HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
                     <span class="image-title">CHITKARA UNIVERSITY</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
                       <span class="image-title">HOLY SPIRIT HOSPITAL BSC B2 </span>
                 </li>--%>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
                     <span class="image-title">K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>--%>
 
                   <li>
-                    <img src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
                     <span class="image-title">SION HOSPITAL </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
                     <span class="image-title">PUNJAB UNIVERSITY </span>
                 </li>
                   <li>
-                    <img src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
                     <span class="image-title">IIT BOMBAY </span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
                     <span class="image-title">AIIMS BHOPAL </span>
                 </li>
                   <li>
-                    <img src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
                     <span class="image-title">BREACH CANDY HOSPITAL</span>
                 </li>
                  <li>
-                    <img src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
                     <span class="image-title">PATANJALI RESEARCH INSTITUTE, HARIDWAR</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
                     <span class="image-title">KOLHAPUR CANCER CENTER</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
                     <span class="image-title">LUPIN DIAGNOSTICS VARANASI</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
                     <span class="image-title">SAIPRASAD MEDICARE PVT LTD </span>
                 </li>
                

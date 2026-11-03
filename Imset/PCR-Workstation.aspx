@@ -96,12 +96,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="PCR Workstation Manufacture by Imset"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="PCR Workstation Manufacture by Imset"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="PCR Workstation Manufacture by Imset"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="PCR Workstation Manufacture by Imset"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -193,7 +193,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="PCR Workstation Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="PCR Workstation Manufacture by Imset shape">
         </div>
     </section>
 
@@ -286,7 +286,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="PCR Workstation Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="PCR Workstation Manufacture by Imset shape">
         </div>
     </section>
 
@@ -294,7 +294,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="PCR Workstation Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="PCR Workstation Manufacture by Imset shape">
         </div>
         <div class="container ">
             <div class="row justify-content-center">

@@ -1,0 +1,29 @@
+.vs/
+**/.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+
+# Visual Studio
+
+.vs/
+ 
+# .NET build output
+
+[Bb]in/
+
+[Oo]bj/
+ 
+# NuGet restored packages
+
+packages/
+ 
+# User-specific files
+
+*.suo
+
+*.user
+
+ 

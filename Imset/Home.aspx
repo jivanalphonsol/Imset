@@ -266,6 +266,27 @@
             margin-top: 50px;
         }
 
+        .Equimentdiv .cardtxt {
+            background: none;
+            padding: 0;
+        }
+
+        .Equimentdiv .main-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 70px;
+            padding: 0 15px;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .Equimentdiv .col-lg-3 {
+            margin-top: 0 !important;
+            margin-bottom: 20px;
+        }
+
         .titleheadh1 {
             font-size: 40px;
             font-weight: 300;
@@ -507,11 +528,11 @@
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <%--  <div class="carousel-item">
-                                    <img src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>--%>
                                 <%--  <div class="carousel-item">
-                                    <img src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow_2.png" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>--%>
                             </div>
@@ -520,12 +541,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -694,7 +715,7 @@
                     <div class="col-lg-6 ">
                         <div class="about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="divaboutus">
-                                <img src="assets/images/Doctor_covid.jpg" alt="Biosafety cabinets of doctor">
+                                <img loading="lazy" decoding="async" src="assets/images/Doctor_covid.jpg" alt="Biosafety cabinets of doctor">
                             </div>
 
                         </div>
@@ -704,7 +725,7 @@
             </section>
 
             <div class="about-shape-1">
-                <img src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
+                <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
             </div>
         </div>
     </section>
@@ -899,21 +920,23 @@
                         </div>
 
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            <img src="assets/images/brand-2.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/brand-2.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1s" data-wow-delay="0.2s">
 
-                            <img src="assets/images/download.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/download.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1s" data-wow-delay="0.2s">
 
-                            <img src="assets/images/gmp.png" alt=" Biosafety cabinet brand">
+                            <img loading="lazy" decoding="async" src="assets/images/gmp.png" alt=" Biosafety cabinet brand">
                         </div>
                         <div class="single-logo mt-30 wow fadeIn imgc " data-wow-duration="1s" data-wow-delay="0.2s" style="margin-top: 100px;">
 
                             <img src="assets/images/Makeinindialogo.jpg" alt=" Biosafety cabinet brand">
                         </div>
-
+                        <div class="single-logo mt-30 wow fadeIn imgc" data-wow-duration="1.5s" data-wow-delay="0.2s">
+    <img src="assets/images/gem-logo(1).png" alt=" Biosafety cabinet brand">
+</div>
                     </div>
 
                 </div>
@@ -930,92 +953,92 @@
         <div class="image-container">
             <ul class="current-images">
                 <li>
-                    <img src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/ACG Associated Capsule Pvt Ltd. BSC A2 4X2.jpg" alt="Image 1">
                     <span class="image-title">ACG ASSOCIATED CAPSULE PVT LTD</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Bethany Hospital.jpeg" alt="Image 2">
                     <span class="image-title">BETHANY HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/CHITKARA UNIVERSITY BSC A2 4X2.jpeg" alt="Image 3">
                     <span class="image-title">CHITKARA UNIVERSITY</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC A2.jpeg" alt="Image 1">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2 1.jpeg" alt="Image 2">
                       <span class="image-title">HOLY SPIRIT HOSPITAL BSC B2 </span>
                 </li>--%>
                 <li>
-                    <img src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/HOLY SPIRIT HOSPITAL BSC B2.jpeg" alt="Image 3">
                     <span class="image-title">HOLY SPIRIT HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab 2.jpeg" alt="Image 1">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Homi Bhabha Cancer Hospital & Research Center, Mohali, Punjab.jpeg" alt="Image 2">
                     <span class="image-title">HOMI BHABHA CANCER HOSPITAL & RESEARCH CENTER, MOHALI, PUNJAB</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE BSC B2 3X2 1.jpeg" alt="Image 3">
                     <span class="image-title">K J SOMAIYA SUPER SPECIALITY HOSPITAL & RESEARCH CENTRE</span>
                 </li>
                 <%--  <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 1.jpeg" alt="Image 1">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>--%>
 
                 <li>
-                    <img src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Sion Hospital TCU Dep 2x2 bsc.jpg" alt="Image 3">
                     <span class="image-title">SION HOSPITAL </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Biosafety cabinet, Punjab University.jpg" alt="Image 3">
                     <span class="image-title">PUNJAB UNIVERSITY </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/IIT bombay 4x2.5x2 Biosafety cabinet.jpg" alt="Image 3">
                     <span class="image-title">IIT BOMBAY </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/AIIMS Bhopal.jpg" alt="Image 3">
                     <span class="image-title">AIIMS BHOPAL </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Breach Candy Hospital.jpg" alt="Image 3">
                     <span class="image-title">BREACH CANDY HOSPITAL</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Patanjali research institute, haridwar.jpg" alt="Image 3">
                     <span class="image-title">PATANJALI RESEARCH INSTITUTE, HARIDWAR</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 2.jpeg" alt="Image 2">
                     <span class="image-title">KOLHAPUR CANCER CENTER </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/kolhapur cancer center 3.jpeg" alt="Image 3">
                     <span class="image-title">KOLHAPUR CANCER CENTER</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN Diagnostics Varanasi.jpeg" alt="Image 3">
                     <span class="image-title">LUPIN DIAGNOSTICS VARANASI</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 1.jpeg" alt="Image 1">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA</span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/LUPIN DIAGNOSTICS VIJAYWADA 2.jpeg" alt="Image 2">
                     <span class="image-title">LUPIN DIAGNOSTICS VIJAYWADA </span>
                 </li>
                 <li>
-                    <img src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
+                    <img loading="lazy" decoding="async" src="assets/images/ScrollImages/Saiprasad Medicare Pvt Ltd 1.jpeg" alt="Image 3">
                     <span class="image-title">SAIPRASAD MEDICARE PVT LTD </span>
                 </li>
 

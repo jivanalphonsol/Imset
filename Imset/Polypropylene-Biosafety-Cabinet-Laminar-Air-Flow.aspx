@@ -90,11 +90,11 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/PolyCabinetAirFlow_2.png" data-color="firebrick" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/PolyCabinetAirFlow_2.png" data-color="firebrick" alt="Polypropylene Vertical Laminar Air Flow Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
 
@@ -106,12 +106,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Previous"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Previous"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Next"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Next"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -205,7 +205,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset Shape">
         </div>
     </section>
 
@@ -257,7 +257,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
         </div>
 
         <div class="container ">
@@ -441,7 +441,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
         </div>
     </section>
 
@@ -449,7 +449,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="Polypropylene Biosafety Cabinet Manufacture by Imset shape">
         </div>
         <div class="container ">
             <div class="row justify-content-center">

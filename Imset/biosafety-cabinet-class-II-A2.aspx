@@ -107,12 +107,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="Biosafety Cabinet Previous"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="Biosafety Cabinet Next"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -134,7 +134,7 @@
                       <div class="col-lg-5">
                         <div class="about-image mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="divaboutus p-5" >
-                               <img src="assets/images/Biosafety_Class II  A2.png" alt="BSC B2 SS Manufacture by Imset" height="400px" />
+                               <img loading="lazy" decoding="async" src="assets/images/Biosafety_Class II  A2.png" alt="BSC B2 SS Manufacture by Imset" height="400px" />
  
                             </div>
 
@@ -324,7 +324,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet shape">
         </div>
     </section>
 
@@ -337,7 +337,7 @@
                     <div class="single-team text-center  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
 
                         <div class="team-content">
-                            <img src="assets/images/Inner_Surface.png" alt="Biosafety Cabinet Inner_Surface">
+                            <img loading="lazy" decoding="async" src="assets/images/Inner_Surface.png" alt="Biosafety Cabinet Inner_Surface">
                             <h5 class="holder-name pt-10"><a href="#">Inner Surface</a></h5>
                             <p class="text">Back Wall and Side Wall Made in Stainless Steel SS 304</p>
                         </div>
@@ -347,7 +347,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
                         <div class="team-content">
-                            <img src="assets/images/Trolley_Base_Stand.png" alt="Inner_Surface Trolley_Base_Stand">
+                            <img loading="lazy" decoding="async" src="assets/images/Trolley_Base_Stand.png" alt="Inner_Surface Trolley_Base_Stand">
                             <h5 class="holder-name pt-10 "><a href="#">Trolley Base Stand  </a></h5>
                             <p class="text">MS Powder Coated Stand with lockable castor wheels</p>
                         </div>
@@ -358,7 +358,7 @@
                     <div class="single-team text-center  wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">
 
                         <div class="team-content">
-                            <img src="assets/images/HEPA_Filter.png" alt="Biosafety cabinet HEPA_Filter">
+                            <img loading="lazy" decoding="async" src="assets/images/HEPA_Filter.png" alt="Biosafety cabinet HEPA_Filter">
                             <h5 class="holder-name pt-10"><a href="#">Filter Type</a></h5>
                             <p class="text">HEPA/ULPA filter with internal metal guards & frame gaskets. </p>
                         </div>
@@ -378,7 +378,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="Biosafety shape">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="Biosafety shape">
         </div>
         <div class="container ">
             <div class="">
@@ -386,7 +386,7 @@
                     <div class="col-lg-4 col-md-7 col-sm-8">
                         <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="team-content">
-                                <img src="assets/images/Ultra_violet_lifemeter.png" alt="Biosafety Cabinet class II A2">
+                                <img loading="lazy" decoding="async" src="assets/images/Ultra_violet_lifemeter.png" alt="Biosafety Cabinet class II A2">
                                 <h5 class="holder-name pt-10"><a href="#">Ultra violet life meter</a></h5>
                                 <p class="text">Continuously display UV Hour on display</p>
                             </div>
@@ -398,7 +398,7 @@
                         <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
 
                             <div class="team-content">
-                                <img src="assets/images/Work_Surface.png" alt="Biosafety Cabinet class II A2">
+                                <img loading="lazy" decoding="async" src="assets/images/Work_Surface.png" alt="Biosafety Cabinet class II A2">
                                 <h5 class="holder-name pt-10"><a href="#">Work Surface</a></h5>
                                 <p class="text">Seamless, Scratch-free, high quality 18 gauge stainless steel, grade 304</p>
                             </div>
@@ -410,7 +410,7 @@
                         <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">
 
                             <div class="team-content">
-                                <img src="assets/images/Sash_Door_Opening.png" alt="Biosafety Cabinet class II A2">
+                                <img loading="lazy" decoding="async" src="assets/images/Sash_Door_Opening.png" alt="Biosafety Cabinet class II A2">
                                 <h5 class="holder-name pt-10"><a href="#">Sash Door Opening </a></h5>
                                 <p class="text">8” Approx, Alarm System when sash door open above the desired height</p>
                             </div>
@@ -577,7 +577,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="team-content">
-                            <img src="assets/images/Electrical_Socket.png" alt="Biosafety Cabinet class II A2">
+                            <img loading="lazy" decoding="async" src="assets/images/Electrical_Socket.png" alt="Biosafety Cabinet class II A2">
                             <h5 class="holder-name pt-10"><a href="#">Electrical Socket </a></h5>
                             <p class="text">socket inside the chamber, 5/15 Amp </p>
                         </div>
@@ -615,7 +615,7 @@
         </div>
         <!-- container -->
         <div class="about-shape-1">
-            <img src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet class II A2">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-1.svg" alt="Biosafety Cabinet class II A2">
         </div>
     </section>
 
@@ -667,7 +667,7 @@
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
-            <img src="assets/images/about-shape-2.svg" alt="Biosafety Cabinet class II A2">
+            <img loading="lazy" decoding="async" src="assets/images/about-shape-2.svg" alt="Biosafety Cabinet class II A2">
         </div>
         <div class="container ">
             <div class="">
@@ -675,7 +675,7 @@
                     <div class="col-lg-4 col-md-7 col-sm-8">
                         <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="team-content">
-                                <img src="assets/images/Ergonomic_Tilt.png" alt="Biosafety Cabinet class II A2">
+                                <img loading="lazy" decoding="async" src="assets/images/Ergonomic_Tilt.png" alt="Biosafety Cabinet class II A2">
                                 <h5 class="holder-name pt-10"><a href="#">Ergonomic Tilt</a></h5>
                                 <p class="text">exceptionally comfortable 10 deg ergonomic designs improve comfort, prevent user fatigue & promote safe working techniques.</p>
                             </div>
@@ -700,7 +700,7 @@
                         <div class="single-team text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">
 
                             <div class="team-content">
-                                <img src="assets/images/Drainage_Port.png" alt="Biosafety Cabinet class II A2">
+                                <img loading="lazy" decoding="async" src="assets/images/Drainage_Port.png" alt="Biosafety Cabinet class II A2">
                                 <h5 class="holder-name pt-10"><a href="#">Drainage Port</a></h5>
                                 <p class="text">Provide beneath work surface to facilitate easy & better cleaning of the interior & handling of spillage inside the chamber</p>
                             </div>

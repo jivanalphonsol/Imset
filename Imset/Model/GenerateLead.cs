@@ -15,7 +15,7 @@ namespace imset.Model
             try
             {
                 SqlConnection con = new SqlConnection(Connection.getConnection());
-                SqlCommand cmd = new SqlCommand("leadgenerationdata", con);
+                SqlCommand cmd = new SqlCommand("alpha.leadgenerationdata", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@type", leadDetailsparam.Type);
                 SqlDataAdapter da = new SqlDataAdapter();

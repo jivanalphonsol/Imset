@@ -270,15 +270,15 @@
                                                     </a>
                                                     <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                                         <a class="dropdown-item" href="biosafety-cabinet-class-II-A2">Biosafety Cabinet Class II A2</a>
-                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety cabinet Class II B2 </a>
-                                                       
-                                                        <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III </a>
-
-                                                        <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet </a>
-                                                        <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow </a>
-                                                        <a class="dropdown-item" href="#">Membrane Filtration Technique</a>
-                                                        <a class="dropdown-item" href="PCR-Workstation">PCR Workstation </a>
-                                                        <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet </a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-II-B2">Biosafety Cabinet Class II B2</a>
+                                                        <a class="dropdown-item" href="biosafety-cabinet-class-III">Biosafety Cabinet Class III</a>
+                                                        <a class="dropdown-item" href="Customized-safety-cabinet-series">Customized Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Polypropylene-Biosafety-Cabinet-Laminar-Air-Flow">Polypropylene Biosafety Cabinet</a>
+                                                        <a class="dropdown-item" href="Vertical-Laminar-Air-Flow-Cabinet">Vertical Laminar Air Flow Cabinet</a>
+                                                        <a class="dropdown-item" href="PCR-Workstation">PCR Workstation</a>
+                                                        <a class="dropdown-item" href="Membrane-Filtration-Technique">Membrane Filtration Technique</a>
+                                                        
+                                                        
                                                     </div>
                                                 </li>
                                                 <li class="nav-item">
@@ -293,9 +293,9 @@
                                                 <li class="nav-item">
                                                     <a class="page-scroll" href="Contact">Contact Us</a>
                                                 </li>
-                                                <li class="nav-item">
+                                                <!--<li class="nav-item">
                                                     <a class="page-scroll" href="Blog">Blog</a>
-                                                </li>
+                                                </li>-->
                                             </ul>
                                         </div>
                                         <!-- navbar collapse -->
@@ -338,12 +338,12 @@
                                     </a>
                                     <p class="text wrap-txt">Imset is India's leading Biosafety cabinet company, which manufactures and supplies most reliable, durable. Discover top-tier Biosafety Cabinets and Vertical Laminar Airflow systems crafted with precision in India. Our expertise lies in providing advanced containment solutions to safeguard your workspace. With a commitment to quality, we offer customizable options that cater to your unique requirements. Elevate your safety standards with our innovative solutions. </p>
                                     <ul class="social">
-                                        <li>
+                                        <!--<li>
                                             <a href="https://www.facebook.com/imsetIndia" target="_blank"><i class="lni-facebook-filled"></i></a>
                                         </li>
                                         <li>
                                             <a href="#"><i class="lni-twitter-filled" ></i></a>
-                                        </li>
+                                        </li>-->
                                         <li>
                                             <a href="https://instagram.com/imsetbiosafetycabinet?utm_source=qr&igshid=OGIxMTE0OTdkZA==" target="_blank"><i class="lni-instagram-filled"></i></a>
                                         </li>
@@ -371,7 +371,7 @@
                                             <li><a href="our_clients">Our Clients</a></li>
                                             <li><a href="Contact">Contact US</a></li>
                                             <li><a href="FAQ">FAQ</a></li>
-                                            <li><a href="Blog">Blog</a></li>
+                                            <!--<li><a href="Blog">Blog</a></li>-->
                                         </ul>
                                     </div>
                                     <!-- footer wrapper -->
@@ -388,6 +388,7 @@
                                         <li><i class="fa fa-headphones pr-10 fa-halfx"></i><a href="tel:+91 9320059699" style="color: white">+91 9320059699</a></li>
                                         <li><i class="fa fa-envelope pr-10 fa-halfx"></i>marketing.imset@gmail.com </li>
                                         <li><i class="fa fa-envelope pr-10 fa-halfx"></i>imset.in@gmail.com</li>
+                                          <li><i class="fa fa-envelope pr-10 fa-halfx"></i>admin@imset.co.in.</li>
                                         <li><i class="fa fa fa-globe pr-10 fa-halfx"></i>www.imset.co.in</li>
                                         <li><i class="fa fa-map-marker pr-10 fa-halfx"></i>IMSET House,
                                            <%-- <br>

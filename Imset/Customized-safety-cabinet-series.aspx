@@ -83,11 +83,11 @@
                             <div class="carousel-inner">
 
                                 <div class="carousel-item active">
-                                    <img src="assets/images/Customizedcabinet.png" data-color="firebrick" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/Customizedcabinet.png" data-color="firebrick" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/Customizedcabinet_02.png" data-color="violet" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
+                                    <img loading="lazy" decoding="async" src="assets/images/Customizedcabinet_02.png" data-color="violet" alt="Customized Biosafety Cabinet(A2 B2 Class III) Manufacture by Imset">
                                     <div class="carousel-caption d-md-block"></div>
                                 </div>
 
@@ -96,12 +96,12 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/previous.png" alt="Customized-safety-cabinet-series Previous"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/previous.png" alt="Customized-safety-cabinet-series Previous"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                                 <span class="" aria-hidden="true">
-                                    <img src="assets/images/next.png" alt="Customized-safety-cabinet-series Previous"></span>
+                                    <img loading="lazy" decoding="async" src="assets/images/next.png" alt="Customized-safety-cabinet-series Previous"></span>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
